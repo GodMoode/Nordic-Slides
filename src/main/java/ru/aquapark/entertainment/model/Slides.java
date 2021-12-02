@@ -6,6 +6,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.experimental.FieldDefaults;
 
+import java.util.AbstractSequentialList;
+
 @Data
 @AllArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
@@ -16,9 +18,5 @@ public class Slides {
      Integer width;
      Boolean openOrClosedSlide;
      Double speed;
-
-     public void toSlide(Person person) {
-          System.out.println(person.getName() + person.getLastname() + " прокатился с горки");
-
      }
-}
+

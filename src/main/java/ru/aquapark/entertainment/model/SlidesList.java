@@ -35,9 +35,9 @@ public class SlidesList {
                     && slides.getWidth().equals(slides1.getHeight())) {
                 return slides1;
             }
-
         }
         return null;
+
     }
 }
 
